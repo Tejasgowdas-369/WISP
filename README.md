@@ -2,6 +2,8 @@
 
 > **A local-first, zero-persistence context compression layer for LLM agents — nothing ever touches disk.**
 
+I completed the core research and initial build for this system back in **January 2026**. Over the last few months, I’ve refined the compression algorithms, optimized the pipeline integrations, and polished the interfaces to make it fully production-ready. Today, in **July 2026**, I am finally opening it up to the public!
+
 I completed the core research and initial build for this system back in January 2026. Over the last few months, I’ve refined the compression algorithms, optimized the pipeline integrations, and polished the interfaces to make it fully production-ready. Today, in July 2026, I am finally opening it up to the public!
 
 WISP sits between raw context sources (RAG chunks, tool outputs, terminal logs, codebases, prose) and your LLM API call. It prunes redundant structures and extracts core information using type-aware algorithms, caches the original in local RAM, and lets you "rehydrate" any compressed section back to full detail on demand.
